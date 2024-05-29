@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Camera
+$(call soong_config_set,samsungCameraVars,extra_ids,52) # ID=52 is telephoto
+
 # Display
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
