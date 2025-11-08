@@ -1,6 +1,17 @@
 # All unpinned blobs are from S901BXXSKGYK5
 # Vendor security patch level 2025-11-01
 
+# Audio
+vendor/etc/LVACFS_Calibration.dat
+vendor/etc/LVACFS_ControlParams.txt
+vendor/etc/mixer_gains.xml
+vendor/etc/SoundBoosterParam.txt
+vendor/firmware/SoundBoosterParam.bin
+vendor/lib/soundfx/libaudiosaplus_sec.so
+vendor/lib/soundfx/libsamsungSoundbooster_plus.so
+vendor/lib/soundfx/libswdap.so
+vendor/lib/soundfx/libswspatializer.so
+
 # Firmware
 vendor/firmware/AIE.bin
 vendor/firmware/APBiBF_AUDIO_SLSI.bin
