@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0.vendor
+
 # Camera
 $(call soong_config_set,samsungCameraVars,extra_ids,52) # ID=52 is telephoto
 
