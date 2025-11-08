@@ -64,6 +64,7 @@ vendor/firmware/is_rta.bin
 vendor/firmware/mfc_fw.bin
 vendor/firmware/sectiongraph_tplg.conf
 vendor/firmware/sensorhub/shub_pamir_rainbow.bin
+vendor/firmware/tsp_stm/fts2ba61y_r0.bin
 vendor/firmware/vts_evt0.bin
 vendor/firmware/vts.bin
 
@@ -71,6 +72,10 @@ vendor/firmware/vts.bin
 vendor/bin/hw/gpsd
 vendor/etc/gnss/gps.cfg
 vendor/lib64/libgps.utils.so
+
+# RAMDisk
+vendor/firmware/tsp_stm/fts2ba61y_r0.bin:recovery/root/vendor/firmware/tsp_stm/fts2ba61y_r0.bin
+recovery/ramdisk/lib/firmware/sgpu/vangogh_lite_unified.bin:recovery/root/lib/firmware/sgpu/vangogh_lite_unified.bin
 
 # Sensors
 vendor/lib64/sensors.grip.so
