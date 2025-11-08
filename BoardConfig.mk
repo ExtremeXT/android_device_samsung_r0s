@@ -12,6 +12,12 @@ DEVICE_PATH := device/samsung/r0s
 # Display
 TARGET_SCREEN_DENSITY := 480
 
+# Kernel
+TARGET_KERNEL_CONFIG += r0s.config
+
+# Kernel Modules
+BOARD_VENDOR_KERNEL_MODULES_LOAD += wlan.ko
+
 # Properties
 TARGET_VENDOR_PROP += device/samsung/r0s/configs/props/vendor.prop
 
