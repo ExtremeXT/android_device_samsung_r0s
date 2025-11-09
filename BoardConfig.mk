@@ -12,5 +12,8 @@ DEVICE_PATH := device/samsung/r0s
 # Display
 TARGET_SCREEN_DENSITY := 480
 
+# Properties
+TARGET_VENDOR_PROP += device/samsung/r0s/configs/props/vendor.prop
+
 # inherit from the proprietary version
 -include vendor/samsung/r0s/BoardConfigVendor.mk
